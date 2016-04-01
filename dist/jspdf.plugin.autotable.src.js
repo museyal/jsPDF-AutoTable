@@ -154,19 +154,19 @@
     // Base style for all themes
     function defaultStyles() {
         return {
-            cellPadding: 5,
+            cellPadding: 2,
             fontSize: 10,
-            font: "helvetica", // helvetica, times, courier
-            lineColor: 200,
-            lineWidth: 0.1,
+            font: "times", // helvetica, times, courier
+            lineColor: 255,
+            lineWidth: 0.2,
             fontStyle: 'normal', // normal, bold, italic, bolditalic
-            overflow: 'ellipsize', // visible, hidden, ellipsize or linebreak
+            overflow: 'linebreak', // visible, hidden, ellipsize or linebreak
             fillColor: 255,
             textColor: 20,
             halign: 'left', // left, center, right
             valign: 'top', // top, middle, bottom
             fillStyle: 'F', // 'S', 'F' or 'DF' (stroke, fill or fill then stroke)
-            rowHeight: 20,
+            rowHeight: 12,
             columnWidth: 'auto'
         };
     }
